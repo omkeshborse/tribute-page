@@ -111,7 +111,7 @@
 @media only screen and (max-width: 414px) {
   
   .best-thought {
-    height: 50vh;
+    height: 100vh;
     /* margin-top: -1rem;
     margin-bottom: 5rem; */
   }
@@ -125,5 +125,9 @@
   }
   .best-thought img {
     height: 300px;
+  }
+  .copyright{
+    font-size: 1rem;
+    height: 40px;
   }
 }
