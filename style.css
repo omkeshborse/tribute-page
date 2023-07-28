@@ -83,6 +83,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .title-section{
+        text-align: center;
+    }
   .best-thought {
     flex-direction: column;
     justify-content: space-between;
@@ -106,10 +109,11 @@
   }
 }
 @media only screen and (max-width: 414px) {
+  
   .best-thought {
     height: 50vh;
-    margin-top: -1rem;
-    margin-bottom: 5rem;
+    /* margin-top: -1rem;
+    margin-bottom: 5rem; */
   }
   .best-thought br {
     content: "";
@@ -122,5 +126,4 @@
   .best-thought img {
     height: 300px;
   }
-  .copyright{display: block;}
 }
